@@ -1,0 +1,63 @@
+.Hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+.content button {
+    height: 40px;
+    width: 150px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+}
+
+.content button:hover {
+    background-color:#FFBF23;
+    color: black;
+    cursor: pointer;
+}
+.innerContent{
+    display: flex;
+}
+.innerContent img{
+    height: 35px;
+}
+.super{
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.content h1{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.text h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+.content button{
+    margin-top:70px;
+}
+.content{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.content button {
+    position: static; /* Remove relative positioning */
+    left: auto;
+}
+.content {
+    /* Use padding instead of fixed margin-left for better spacing */
+    margin: 40px 20px 40px 20px; 
+    padding: 0;
+}
+

@@ -1,0 +1,56 @@
+/* Hero-Five CSS File */
+
+.HeroFive img {
+    width: 100%;
+    display: block;
+}
+.hero-five-box {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFD7EF;
+}
+.hero-five-box-content{
+    width: 80%;
+    padding: 10%;
+}
+.hero-five-box-content-head{
+    width: 45%;
+}
+.hero-five-box-content-head h2 {
+    font-family: "space grotesk", sans-serif;
+    font-size: 38px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.hero-five-box-content-para{
+    width: 35%;
+}
+.hero-five-box-content-para p {
+    font-family: "space grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.hero-five-box-img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hero-five-box-img-container-one{
+    width: 40%;
+    padding: 50px;
+    display: flex;
+    gap: 50%;
+}
+.hero-five-box-img-container-two{
+    width: 40%;
+    padding: 50px;
+    display: flex;
+    gap: 50%;
+}
+.hero-five-box-img img{
+    width: 115px;
+    height: 115px;
+}

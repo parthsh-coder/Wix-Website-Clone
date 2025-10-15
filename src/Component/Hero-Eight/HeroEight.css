@@ -1,0 +1,32 @@
+.HeroEight{
+    margin-top: 170px;
+}
+.lastContent{
+    text-align: center;
+}
+.lastContent h1{
+    font-size: 42px;
+    font-weight: 400;
+}
+.lastContent button {
+    height: 40px;
+    width: 120px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.lastContent button:hover {
+    background-color:#FFBF23;
+    color: black;
+    cursor: pointer;
+}
+.HeroEight img{
+    margin-left: 320px;
+    position: relative;
+    top:48px;
+
+}

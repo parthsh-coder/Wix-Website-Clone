@@ -1,0 +1,38 @@
+/* CSS File */
+
+.herotwo{
+    margin-top: 5%;
+}
+
+.herotwo img{
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+.herotwo-box{
+    width: 100%;
+    height: 400px;
+    background-color: #FFBF23;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-big-text{
+    width: 20%;
+    padding: 4% 10%;
+}
+.hero-big-text h2{
+    font-family: "space grotesk", sans-serif;
+    font-size: 38px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.hero-p-text{
+    width: 30%;
+    padding: 4% 10%;
+}
+.hero-p-text p{
+    font-family: "space grotesk", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+}

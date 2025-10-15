@@ -1,0 +1,84 @@
+.HeroNine {
+    height: 500px;
+    width: 100%;
+    background-color: #FFBF23;
+}
+
+.lowerFoot {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerFoot h4 {
+    font-weight: 200;
+}
+
+.footerContent {
+    position: relative;
+    top: 100px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.one ul {
+    list-style: none;
+    margin-top: 100px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 90px;
+}
+
+.footerContent h4 {
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    left: 185px;
+    top: 30px;
+}
+
+.two ul {
+    list-style: none;
+    margin-top: 100px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 55px;
+    text-decoration: underline;
+}
+
+.three ul {
+    list-style: none;
+    margin-top: 100px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+.three input{
+    margin-top: 10px;
+    background-color:#FFBF23;
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius:5px;
+}
+
+.three button {
+    height: 40px;
+    width: 305px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.three button:hover {
+    background-color:#FFBF23;
+    color: black;
+    cursor: pointer;
+}

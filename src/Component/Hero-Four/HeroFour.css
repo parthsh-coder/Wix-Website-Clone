@@ -1,0 +1,25 @@
+.HeroFour{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+.part{
+    margin-top: 150px;
+}
+.pic{
+    margin-right: 150px;
+}
+.part h1{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+
+}
+.part p{
+    line-height: 25px;
+}
+.hello{
+    position: relative;
+    bottom: 40px;
+
+}

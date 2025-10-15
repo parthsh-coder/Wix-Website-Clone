@@ -1,0 +1,169 @@
+/* HeroSeven CSS File */
+
+.HeroSeven {
+    width: 100%;
+    margin-top: 10%;
+    height: 90vh;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-seven-container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+}
+/* ----- */
+.hero-seven-text {
+    width: 60%;
+    height: 75vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8%;
+}
+.hero-seven-text-head {
+    width: 35%;
+    margin-left: 10%;
+}
+.hero-seven-text-head h2 {
+    font-family: "space grotesk", sans-serif;
+    font-size: 38px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.hero-seven-text-para {
+    width: 60%;
+    margin-left: 10%;
+}
+.hero-seven-text-para p {
+    font-family: "space grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.hero-seven-text-button {
+    width: 15%;
+    margin-left: 10%;
+}
+.hero-seven-text-button button {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.hero-seven-text-button button:hover {
+    background-color: #FFBF23;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+/* ----- */
+.hero-seven-card {
+    width: 40%;
+    height: 75vh;
+    margin: 20px;
+}
+.best-value {
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    bottom: 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: "space grotesk", sans-serif;
+    background-color: #FFBF23;
+    border: 2px solid black;
+}
+.hero-seven-card-box1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 45vh;
+}
+.hero-seven-card-box1 h2{
+    font-size: 28px;
+    width: 50%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-family: "space grotesk", sans-serif;
+    font-weight: 200;
+}
+.hero-seven-card-box1 h3{
+    font-size: 18px;
+    width: 50%;
+    margin-left: 5%;
+    font-family: "space grotesk", sans-serif;
+    font-weight: 200;
+}
+.hero-seven-card-box1 span{
+    font-size: 60px;
+    margin-left: 10%;
+    font-family: "space grotesk", sans-serif;
+    font-weight: bold;
+}
+.hero-seven-card-box1 p{
+    font-size: 14px;
+    width: 60%;
+    margin-left: 5%;
+    line-height: 40px;
+    font-family: "space grotesk", sans-serif;
+}
+.hero-seven-card-box1 button{
+    margin: 24px;
+    padding: 18px 16px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "space grotesk", sans-serif;
+    margin-left: 20%;
+    cursor: pointer;
+}
+.hero-seven-card-box1 button:hover{
+    text-decoration: underline;
+}
+.hero-seven-card-box2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 25vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FFD7EF;
+    border: 2px solid black;
+}
+.hero-seven-card-box2 ul{
+    list-style: none;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+.hero-seven-card-box2 li {
+    margin-top: 5%;
+    font-size: 18px;
+    position: relative;
+}
+.hero-seven-card-box2 li::before {
+  content: "•";
+  color: black;
+  font-size: 50px;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+}

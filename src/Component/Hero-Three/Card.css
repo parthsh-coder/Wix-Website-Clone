@@ -1,0 +1,10 @@
+.Card img{
+    border-radius: 15px;
+    border:2px solid black;
+}
+.Card h2{
+    font-weight: 600;
+}
+.Card p{
+    line-height: 25px;
+}
